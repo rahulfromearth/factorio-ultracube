@@ -157,7 +157,7 @@ local function is_compatible(t)
 end
 
 local function is_compatible_recipe(t)
-  return t and (is_compatible(t) or has_prefix(t.category))
+  return t and (is_compatible(t) or (t.categories and has_prefix(t.categories[1])))
 end
 
 local function is_compatible_item(t)
