@@ -1,5 +1,7 @@
 require("__Ultracube__/scripts/lib")
 
+data.raw.fluid["steam"].max_temperature = 5000
+
 local vanilla_fluids = make_set({"water", "sulfuric-acid"})
 for name, fluid in pairs(data.raw.fluid) do
   if not vanilla_fluids[name] then
