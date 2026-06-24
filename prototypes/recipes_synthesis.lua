@@ -252,7 +252,7 @@ data:extend({
     },
     results = {
       {type = "item", name = "cube-phantom-ultradense-constituent", amount = 1, ignored_by_productivity = 1},
-      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, probability = 0.75, show_details_in_recipe_tooltip = false},
+      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, independent_probability = 0.75, show_details_in_recipe_tooltip = false},
     },
     main_product = "",
     energy_required = 1,
@@ -467,7 +467,7 @@ data:extend({
     results = {
       {type = "item", name = "cube-dormant-phantom-constituent", amount = 1, ignored_by_productivity = 1, show_details_in_recipe_tooltip = false},
       {type = "fluid", name = "cube-cerebral-substrate", amount = 1000},
-      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, probability = 0.5, show_details_in_recipe_tooltip = false},
+      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, independent_probability = 0.5, show_details_in_recipe_tooltip = false},
     },
     energy_required = 1,
     categories = {"cube-synthesizer"},
@@ -539,7 +539,7 @@ data:extend({
     results = {
       {type = "item", name = "cube-dormant-phantom-constituent", amount = 1, ignored_by_productivity = 1},
       {type = "fluid", name = "cube-ectoplasm", amount = 200},
-      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, probability = 0.5, show_details_in_recipe_tooltip = false},
+      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, independent_probability = 0.5, show_details_in_recipe_tooltip = false},
     },
     main_product = "",
     energy_required = 1,
@@ -613,8 +613,8 @@ data:extend({
     },
     results = {
       {type = "item", name = "cube-ultradense-utility-cube", amount = 1, ignored_by_productivity = 1, show_details_in_recipe_tooltip = false},
-      {type = "item", name = "cube-boson-conduit", amount = 50, probability = 0.5},
-      {type = "item", name = "cube-fermion-conduit", amount = 50, probability = 0.5},
+      {type = "item", name = "cube-boson-conduit", amount = 50, independent_probability = 0.5},
+      {type = "item", name = "cube-fermion-conduit", amount = 50, independent_probability = 0.5},
     },
     energy_required = 2,
     categories = {"cube-cyclotron"},
@@ -830,7 +830,7 @@ data:extend({
     },
     results = {
       {type = "item", name = "cube-ultradense-composite", amount = 1},
-      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, probability = 0.5, show_details_in_recipe_tooltip = false},
+      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, independent_probability = 0.5, show_details_in_recipe_tooltip = false},
     },
     main_product = "cube-ultradense-composite",
     energy_required = 4,

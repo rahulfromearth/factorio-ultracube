@@ -45,7 +45,7 @@ data:extend({
     },
     results = {
       {type = "item", name = "cube-qubit", amount = 2},
-      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, probability = 0.75, show_details_in_recipe_tooltip = false},
+      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, independent_probability = 0.75, show_details_in_recipe_tooltip = false},
     },
     main_product = "cube-qubit",
     energy_required = 8,

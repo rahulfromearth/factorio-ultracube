@@ -316,7 +316,7 @@ data:extend({
     },
     results = {
       {type = "fluid", name = "steam", amount = 250, temperature = 215, show_details_in_recipe_tooltip = false},
-      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, probability = 0.5, show_details_in_recipe_tooltip = false},
+      {type = "item", name = "cube-besselheim-flask", amount = 1, ignored_by_productivity = 1, independent_probability = 0.5, show_details_in_recipe_tooltip = false},
     },
     main_product = "",
     energy_required = 2,
