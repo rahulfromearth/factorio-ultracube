@@ -11,7 +11,7 @@ if mods["nixie-tubes"] then
       },
       results = {{type = "item", name = "nixie-tube", amount = 1}},
       energy_required = 1,
-      category = "cube-fabricator-handcraft",
+      categories = {"cube-fabricator-handcraft"},
       enabled = false,
     },
     {
@@ -25,7 +25,7 @@ if mods["nixie-tubes"] then
       },
       results = {{type = "item", name = "nixie-tube-alpha", amount = 1}},
       energy_required = 1,
-      category = "cube-fabricator-handcraft",
+      categories = {"cube-fabricator-handcraft"},
       enabled = false,
     },
     {
@@ -39,7 +39,7 @@ if mods["nixie-tubes"] then
       },
       results = {{type = "item", name = "nixie-tube-small", amount = 1}},
       energy_required = 1,
-      category = "cube-fabricator-handcraft",
+      categories = {"cube-fabricator-handcraft"},
       enabled = false,
     },
     {

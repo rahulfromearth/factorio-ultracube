@@ -23,7 +23,7 @@ data:extend({
     },
     results = {{type = "item", name = "cube-modular-casing", amount = 1}},
     energy_required = 15,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -41,7 +41,7 @@ data:extend({
       {type = "item", name = "copper-cable", amount_min = 0, amount_max = 50, probability = 0.5, show_details_in_recipe_tooltip = false},
     },
     energy_required = 4,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     subgroup = "cube-module-intermediates",
     order = "cube-b[burnt-out-modular-casing]",
     enabled = false,
@@ -60,7 +60,7 @@ data:extend({
     },
     main_product = "cube-efficiency-module",
     energy_required = 4,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -78,7 +78,7 @@ data:extend({
     },
     main_product = "cube-efficiency-module-v2",
     energy_required = 8,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -97,7 +97,7 @@ data:extend({
     },
     main_product = "cube-efficiency-module-v3",
     energy_required = 12,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
 
@@ -114,7 +114,7 @@ data:extend({
     },
     main_product = "cube-speed-module",
     energy_required = 4,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -132,7 +132,7 @@ data:extend({
     },
     main_product = "cube-speed-module-v2",
     energy_required = 8,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -151,7 +151,7 @@ data:extend({
     },
     main_product = "cube-speed-module-v3",
     energy_required = 12,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
 
@@ -168,7 +168,7 @@ data:extend({
     },
     main_product = "cube-productivity-module",
     energy_required = 4,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -186,7 +186,7 @@ data:extend({
     },
     main_product = "cube-productivity-module-v2",
     energy_required = 8,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
   {
@@ -205,7 +205,7 @@ data:extend({
     },
     main_product = "cube-productivity-module-v3",
     energy_required = 12,
-    category = "cube-fabricator-handcraft",
+    categories = {"cube-fabricator-handcraft"},
     enabled = false,
   },
 })
