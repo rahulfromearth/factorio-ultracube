@@ -613,8 +613,8 @@ data:extend({
     },
     results = {
       {type = "item", name = "cube-ultradense-utility-cube", amount = 1, ignored_by_productivity = 1, show_details_in_recipe_tooltip = false},
-      {type = "item", name = "cube-boson-conduit", amount = 50, independent_probability = 0.5},
-      {type = "item", name = "cube-fermion-conduit", amount = 50, independent_probability = 0.5},
+      {type = "item", name = "cube-boson-conduit", amount = 50, shared_probability = 0.5},
+      {type = "item", name = "cube-fermion-conduit", amount = 50, shared_probability = 0.5},
     },
     energy_required = 2,
     categories = {"cube-cyclotron"},
