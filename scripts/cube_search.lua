@@ -631,7 +631,7 @@ local function cube_search_graph(last_entities_size, last_entities)
       local t
       local t_belt = false
       if type == underground_t then
-        t = e.neighbours
+        t = e.underground_belt_neighbour
         t_belt = true
       elseif type == loader_t and e.loader_type == input_t then
         t = e.loader_container
@@ -652,7 +652,12 @@ local function cube_search_graph(last_entities_size, last_entities)
       end
 
       if type == underground_t or type == splitter_t or type == loader_t or type == belt_t then
-        local targets = e.belt_neighbours[outputs_t]
+        local targets
+        if type == underground_t then
+          targets = {e.underground_belt_neighbour}
+        else
+          targets = e.belt_neighbours[outputs_t]
+        end
         if targets then
           for j = 1, #targets do
             t = targets[j]
